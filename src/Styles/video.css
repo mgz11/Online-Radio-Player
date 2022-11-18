@@ -1,0 +1,117 @@
+.videoContainer {
+    height: 650px;
+    width: 100%;
+    max-width: 900px;
+    min-width: 700px;
+}
+
+.videoScreen {
+    position: relative;
+
+    /* Makes user unable to click on video player */
+    pointer-events: none;
+}
+
+.outerVideoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.stationInfo {
+    position: relative;
+    top: 40px;
+    font-size: 24px;
+    letter-spacing: 5px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 3s;
+}
+
+/* Animation for station name */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.socialIcon {
+    font-size: 34px;
+    cursor: pointer;
+    color: #816797;
+}
+
+.audioControl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+.play, .pause {
+    margin-right: 20px;
+    font-size: 48px;
+}
+
+.volumeOn, .volumeOff {
+    font-size: 28px;
+}
+
+.volumeSlider {
+    display: flex;
+    margin-left: 10px;
+}
+
+/* Style range input */
+input[type='range'] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    background: hsl(0, 0%, 85%);
+    border-radius: 5px;
+    height: 7px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #816797;
+    width: 20px;
+    height: 20px;
+    margin-top: -7px;
+    border-radius: 20px;
+}
+
+.rangeSlider {
+    border-radius: 5px;
+}
+
+.audioPlayer {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .videoContainer {
+        height: 680px;
+        width: 100%;
+        max-width: 700px;
+        min-width: 550px;
+        margin-top: 30px
+    }
+}
+
+
+

@@ -52,7 +52,17 @@ const Controls = ({ playPauseImage, playPause, buttonClass, playPauseStream, str
                     value={volume}
                     step={0.01}
                     onChange={(event) => {
+                        // Mute to volume on
+                        if (event.target.value !== 0 && volumeClass === 'volumeOff') {
+                            setVolumeImg(faVolumeHigh);
+                            setVolumeClass('volumeOn');
+                        }
                         setVolume(event.target.valueAsNumber);
+                        // Slide volume to off, change image
+                        if (event.target.value == 0) {
+                            setVolumeImg(faVolumeMute);
+                            setVolumeClass('volumeOff');
+                        }                        
                     }}
                 />
             </div>

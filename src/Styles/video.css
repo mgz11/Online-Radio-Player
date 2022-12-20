@@ -60,6 +60,7 @@
 
 .volumeOn, .volumeOff {
     font-size: 28px;
+    width: 35px;
 }
 
 .volumeSlider {

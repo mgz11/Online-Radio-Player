@@ -8,13 +8,13 @@ task you are doing.
 
 ## Preview [Live Site](https://serenesounds.vercel.app/)
 
-![Online Player Preview](public\preview.png)
+![Online Player Preview](public/preview.png)
 
 ## Mockups
 
 I designed mockups for the application in [Figma](https://www.figma.com/file/2ydtjXvfeiLuFMss3slr3b/Music-Player-Design?type=design&node-id=15%3A40&mode=design&t=wui6GolxnKYSn5f8-1). While the application is intended for desktops, a mobile design of the application also exists.
-![Desktop Mockup](public\mockup.png)
-![Mobile Mockup](public\mobile-mockup.png)
+![Desktop Mockup](public/mockup.png)
+![Mobile Mockup](public/mobile-mockup.png)
 
 ## Features
 

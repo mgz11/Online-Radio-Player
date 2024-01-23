@@ -70,8 +70,8 @@ function App() {
 
   const CafeLofi = () => {
     setStations('Cafe Lofi');
-    setStream("https://www.youtube.com/watch?v=e3L1PIY1pN8");
-    setChannelLink("https://www.youtube.com/c/steezyasfvck");
+    setStream("https://www.youtube.com/watch?v=BWjrWwhS-BU");
+    setChannelLink("https://www.youtube.com/channel/UCJhjE7wbdYAae1G25m0tHAA");
     startStream();
     setPlayPauseImage(faCirclePause);
     setPlayPauseClass('pause');
@@ -79,7 +79,7 @@ function App() {
 
   const CalmPiano = () => {
     setStations('Calm Piano');
-    setStream("https://www.youtube.com/watch?v=6cDiJCM-6KA");
+    setStream("https://www.youtube.com/watch?v=4khIPP--FDU");
     setChannelLink("https://www.youtube.com/@OCBRelaxMusic");
     startStream();
     setPlayPauseImage(faCirclePause);
